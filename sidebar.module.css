@@ -1,0 +1,124 @@
+/* sidebar.module.css */
+
+.sidebar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    box-sizing: border-box; /* Include padding and border in total width and height */
+}
+
+.colorSelector {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.colorOption {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent; 
+}
+
+.colorOption.selected {
+    border-color: black;
+}
+
+.plusbutton {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    background-color: #001F8B;
+    color: white;
+    font-size: 25px;
+}
+
+.creategroup {
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    padding-left: 230px;
+    top: 550px;
+}
+
+.heading {
+    position: fixed;
+    padding-left: 30px;
+}
+
+.groups {
+    /* padding-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+   
+.group{
+    display: flex;
+    flex-direction: row;
+}
+.profileHeading {
+    
+    color: white; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 10px; 
+    padding-top: 5px;
+    
+}
+.gn{
+    font-size: 15px;
+}
+/* In your CSS file (e.g., styles.css) */
+
+
+  /* Apply Roboto font family */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.groupsContainer {
+    height: calc(100vh - 100px); /* Adjust the height as per your layout */
+    overflow-y: auto;
+    margin-top: 80px; 
+    
+    
+}
+.profilecolor{
+    display: flex;
+    padding-top: 5px;
+
+}
+.formbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.formheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.crea{
+    color: white ;
+    background-color: #16008B;
+    width: 90px;
+    border-radius: 15px;
+    height: 30px;
+
+
+
+}

@@ -1,0 +1,64 @@
+.right {
+    background-color: #DAE5F5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.notesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.notesinputbox {
+    min-height: 90px;
+
+    border: 15px solid #001F8B;
+    width: 290px;
+    margin-bottom: 0px;
+}
+.noteBoxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 25px;
+    margin-top: 20px; /* Adjust the margin to create space between heading and notes */
+    padding-right: 10px; /* Add some right padding to ensure the scrollbar doesn't overlap content */
+
+}
+.noteBox {
+    background-color:white;
+    padding: 10px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1;  */
+    /* overflow-y: auto;  */
+    z-index: 1;
+
+    
+}
+.startHeading {
+    display: flex;
+    align-items: center;
+    background-color: #001F8B;
+    padding: 10px; 
+    color: white; 
+    gap: 5px;
+}
+.profileHeading {
+    margin-right: 10px;
+    background-color: #001F8B; 
+    color: white; 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+}
+.dateandtime{
+    display: flex;
+    flex-direction: row-reverse;
+}

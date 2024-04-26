@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Hide overflow to remove scroll bars */
+}
+
+.desktoppage {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin: 0;
+}
+
+.left {
+    width: 300px; /* Set a fixed width for the left sidebar */
+    flex-shrink: 0; /* Prevent the left sidebar from shrinking */
+}
+
+.right {
+    flex-grow: 1; /* Allow the right side to take up remaining space */
+    background-color: #DAE5F5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 100px;
+}
+
+.notesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.notesinputbox {
+    height: 200px;
+    border: 15px solid #001F8B;
+    border-radius: 15px;
+    width: 1200px;
+}
+
+.notesheading {
+    
+    height: 60px;
+    top: 0px;
+    margin: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.noteBoxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 25px;
+    margin-top: 20px; /* Adjust the margin to create space between heading and notes */
+    padding-right: 10px; /* Add some right padding to ensure the scrollbar doesn't overlap content */
+
+}
+
+.noteBox {
+    background-color:white;
+    padding: 10px;
+    border: 5px solid white;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    /* overflow-y: auto;  */
+    z-index: 1;
+}
+.startHeading {
+    display: flex;
+    align-items: center;
+    background-color: #001F8B;
+    padding: 10px; 
+    color: white; 
+}
+
+.profileHeading {
+    margin-right: 10px;
+    background-color: #001F8B; 
+    color: white; 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+}
+.dateandtime{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
